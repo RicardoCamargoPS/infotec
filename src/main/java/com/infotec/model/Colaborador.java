@@ -1,4 +1,4 @@
-package com.infotec.control;
+package com.infotec.model;
 
 public class Colaborador {
 
