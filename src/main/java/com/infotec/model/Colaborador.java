@@ -14,18 +14,26 @@ public class Colaborador {
 
     private Funcao funcao;
 
-    public void Colaborador(String nome, String endereco, String email, int tel, int cpf){
+    public void Colaborador(String nome, String endereco, int cpf, int rg, int ctps, int nis, Funcao funcao){
         this.nome = nome;
         this.endereco = endereco;
-        this.email = email;
-        this.tel = tel;
+        this.RG = rg;
+        this.CTPS = ctps;
+        this.NIS = nis;
         this.cpf = cpf;
-        
+        this.funcao = funcao;        
     }
 
     private void setCOD(){
         // TODO:  implemetar metodo para busca do ultimo ID unico na tabela de clientes, adiciobar +1 que sera o cod do cliente
 
+    }
+
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public void setTel(int tel){
+        this.tel = tel;
     }
 
 }
