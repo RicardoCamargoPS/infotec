@@ -1,7 +1,9 @@
 package com.infotec;
 
+import com.infotec.view.Login;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new Login();
     }
 }
